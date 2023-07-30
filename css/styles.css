@@ -1,4 +1,40 @@
-ul {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 900;
+/*this is the style of main page*/
+
+/*this is the general background color and fonts*/
+.lists,
+p {
+    background-color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*this is the header*/
+.head,
+.head-recipes {
+    text-align: center; 
+    color: white; 
+    font-size: 60px; 
+    background-color: rgb(111, 7, 7); 
+}
+/*this is for texts on paragraph and lists*/
+p, .lists {
+    text-align: left; 
+    color: black; 
+    font-size: 20px
+}
+
+/*this is the style of recipe page*/
+
+/*we will use .head for the h1*/
+
+/*this is the image*/
+.img {
+    text-align: center; 
+    width: 450px; 
+    height: auto;
+}
+/*this one is specifically for recipes*/
+.head-recipes{
+    text-align: left;
+    font-size: 40px;
+}
+
+
