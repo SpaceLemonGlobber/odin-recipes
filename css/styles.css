@@ -5,6 +5,9 @@
 p {
     background-color: orange;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left; 
+    color: black; 
+    font-size: 20px
 }
 /*this is the header*/
 .head,
@@ -14,12 +17,6 @@ p {
     font-size: 60px; 
     background-color: rgb(111, 7, 7); 
 }
-/*this is for texts on paragraph and lists*/
-p, .lists {
-    text-align: left; 
-    color: black; 
-    font-size: 20px
-}
 
 /*this is the style of recipe page*/
 
@@ -28,7 +25,7 @@ p, .lists {
 /*this is the image*/
 .img {
     text-align: center; 
-    width: 450px; 
+    width: 350px; 
     height: auto;
 }
 /*this one is specifically for recipes*/
